@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Stylized Nepal hydropower and transmission landscape</title>
+  <desc id="desc">Mountain ridges, river water, hydropower infrastructure, and transmission towers at dusk.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14302b"/>
+      <stop offset=".46" stop-color="#1b4a3e"/>
+      <stop offset="1" stop-color="#07110f"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#214f48"/>
+      <stop offset="1" stop-color="#07110f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#78e08f" stop-opacity=".28"/>
+      <stop offset=".5" stop-color="#9fe6f1" stop-opacity=".44"/>
+      <stop offset="1" stop-color="#39d98a" stop-opacity=".25"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1800" height="1100" fill="url(#sky)"/>
+  <circle cx="1390" cy="190" r="110" fill="#f3c96b" opacity=".9"/>
+  <circle cx="1390" cy="190" r="190" fill="#f3c96b" opacity=".15" filter="url(#soft)"/>
+  <path d="M0 430 180 280l165 132 185-248 210 258 160-182 224 252 184-146 180 150 312-236v840H0Z" fill="#dff8ee" opacity=".13"/>
+  <path d="M0 520 190 382l164 104 170-196 204 206 157-136 214 198 170-116 222 172 309-180v666H0Z" fill="url(#ridge)"/>
+  <path d="M0 642c170-56 302-78 468-38 182 44 284 122 482 92 202-31 287-132 496-124 154 6 248 66 354 132v396H0Z" fill="#0b1815"/>
+  <path d="M0 760c244-54 378-15 570 78 203 98 390 108 606 22 222-89 384-76 624 30v210H0Z" fill="#10201b"/>
+  <path d="M586 1100c153-130 282-218 404-264 130-49 252-48 378-14 120 32 252 92 432 146v132Z" fill="url(#water)" opacity=".95"/>
+  <path d="M720 1100c158-98 275-152 402-164 148-14 298 36 530 164Z" fill="#9fe6f1" opacity=".1"/>
+  <g fill="none" stroke="#b8f5cc" stroke-linecap="round" stroke-linejoin="round" opacity=".62">
+    <path d="M1170 806h148l-74-244Z" stroke-width="10"/>
+    <path d="M1196 724h96M1217 652h54M1138 806h212M1244 562v244" stroke-width="8"/>
+    <path d="M1318 630c170-78 318-128 482-154" stroke-width="5"/>
+    <path d="M1170 630C930 572 755 545 520 548" stroke-width="5"/>
+    <path d="M1362 802h118l-59-194Z" stroke-width="8" opacity=".72"/>
+    <path d="M1383 738h76M1399 682h44M1421 608v194" stroke-width="6" opacity=".72"/>
+  </g>
+  <g opacity=".82">
+    <rect x="323" y="774" width="205" height="92" rx="6" fill="#d6f3e5" opacity=".2"/>
+    <rect x="346" y="792" width="72" height="74" rx="4" fill="#39d98a" opacity=".34"/>
+    <rect x="436" y="807" width="60" height="59" rx="4" fill="#f3c96b" opacity=".32"/>
+    <path d="M292 866h270v43H292Z" fill="#07110f" opacity=".68"/>
+  </g>
+  <path d="M0 978c172-38 268-42 438-12 202 35 330 74 566 42 191-26 336-80 536-60 104 10 182 34 260 68v84H0Z" fill="#07110f" opacity=".78"/>
+</svg>
